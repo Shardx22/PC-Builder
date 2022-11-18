@@ -1,0 +1,82 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #222831;
+}
+
+nav ul{
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+    background-color: #393e46; 
+    color: #eeeeee; 
+    text-align: center ;
+    
+}
+nav ul li{
+    display: inline;
+    padding: 5px;
+    font-weight: 600;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+nav li a:hover{
+    color: #d65a31;
+}
+.searchbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.searchbar input[type=search]{
+    height: 30px;
+    width: 60%;
+    margin-left: 20%;
+    border: solid 2px #eeeeee;
+    background-color: #393e46;
+}
+.searchbar input[type=search]:hover{
+    border: solid 2px #d65a31;
+}
+.Parts{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.gallery{
+    float: left;
+    margin-left: 23px;
+    margin-top: 10px;
+    border: 3px solid #ccc;
+    background-color: #393e46;
+}
+.gallery img{
+    padding-top: 13px;
+}
+.gallery:hover{
+    border: 3px solid #d65a31;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #eeeeee;
+}
+.desc span{
+    color: #d65a31;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+
+
+
